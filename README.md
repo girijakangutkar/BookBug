@@ -1,16 +1,39 @@
-# React + Vite
+# BookBug
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookFinder is a sleek and responsive web application that allows users to search for books by title. Powered by a public API, it fetches and displays book details in real-time based on user queries. Built with **React** and styled using **TailwindCSS**, this app offers a clean and intuitive user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Bar**: Type in any book title to instantly fetch matching results.
+- **Live Book Data**: Results are pulled from a book API, ensuring up-to-date information.
+- **Fast & Responsive UI**: Built with React for dynamic rendering and TailwindCSS for modern styling.
+- **Mobile-Friendly**: Fully responsive design that works seamlessly across devices.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology  | Description                        |
+| ----------- | ---------------------------------- |
+| React       | JavaScript library for UI building |
+| TailwindCSS | Utility-first CSS framework        |
+| Book API    | External API for book data         |
 
-## Expanding the ESLint configuration
+## API used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://openlibrary.org/search.json
+
+## Getting Started
+
+To run this project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/girijakangutkar/BookBug.git
+   cd BookBug
+   ```
+2. **Run the project**
+
+   ```
+   npm i
+   npm run dev
+
+   ```
