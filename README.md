@@ -21,6 +21,11 @@ BookFinder is a sleek and responsive web application that allows users to search
 
 https://openlibrary.org/search.json
 
+## UI view
+
+![Home page](https://github.com/girijakangutkar/BookBug/blob/master/src/assets/Screenshot%20(1451).png)
+![Books page](https://github.com/girijakangutkar/BookBug/blob/master/src/assets/Screenshot%20(1450).png)
+
 ## Getting Started
 
 To run this project locally:
